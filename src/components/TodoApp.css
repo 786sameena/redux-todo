@@ -1,0 +1,116 @@
+/* TodoApp.css */
+
+body{
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148920283.jpg');
+    background-size: cover;
+  }
+  .todo-app {
+    font-family: 'Arial', sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-right: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  h1 {
+    color: #66545e;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #66545e;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color:palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color:palevioletred;
+    cursor: not-allowed;
+  }
+  
+  .warning-message {
+    color: #aa6f73;
+    margin-bottom: 10px;
+  }
+  
+  .filter-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #66545e;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkbox-container {
+    margin-right: 10px;
+  }
+  
+  .task-text {
+    flex: 1;
+    font-size: 16px;
+    color: #66545e;
+    text-decoration: none;
+  }
+  
+  .task-text.completed {
+    text-decoration: line-through;
+    color: #a39193;
+  }
+  
+  .edit-buttons {
+    display: flex;
+  }
+  
+  .edit-buttons button {
+    margin-right: 5px;
+    padding: 5px;
+    background-color:palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .edit-buttons button:hover {
+    background-color: #eea990;
+  }
